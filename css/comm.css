@@ -1,0 +1,25 @@
+.panel .head {
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+.panel .head .icon-me {
+    width: 40px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+}
+.panel .head h5 {
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+.panel .content-block p {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+}
