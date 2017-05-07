@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <img src="./images/logo.png">
     <hello></hello>
-    <router-link to="detail">Go to Bar</router-link>
-
   </div>
 </template>
 
 <script>
   import 'common/css/reset.css';
   import Hello from 'components/Hello/Hello'
-
   export default {
     name: 'app',
     components: {
