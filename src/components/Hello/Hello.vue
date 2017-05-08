@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <!-- 这里是页面内容区 -->
   </div>
+
 </template>
 
 <script>
