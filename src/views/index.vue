@@ -31,7 +31,8 @@
                 <span class="si_01"></span>
               </div>
               <div class="select_item times_btn">
-                <span class="si_02"></span>
+                <span class="si_02">
+                </span>
               </div>
               <div class="select_item shops_btn">
                 <span class="si_03"></span>
@@ -39,7 +40,7 @@
             </div>
             <div class="select_info">
               <div class="select_bg distance_scope">全部</div>
-              <div class="select_bg times_scope">8:00-18:00</div>
+              <div class="select_bg times_scope" >8:00-18:00</div>
             </div>
           </div>
           <div class="content-block">
@@ -96,7 +97,7 @@
           </div>
         </div>
         <EgdSideBar :show-sidebar.sync="showSidebar"></EgdSideBar>
-        <!--侧边栏遮罩层-->
+    <!--侧边栏遮罩层-->
         <div v-if="showSidebar" class="sidebar-mask" @click="hiddenBar"></div>
       </div>
 </template>
@@ -128,11 +129,14 @@ export default {
       window.document.body.className = '';
       window.document.querySelector('html').className = '';
       this.showSidebar = !this.showSidebar
+    },
+    getDate(v) {
+      console.log(v)
     }
   },
   components: {
     EgdSideBar
-  }
+  },
 }
 </script>
 

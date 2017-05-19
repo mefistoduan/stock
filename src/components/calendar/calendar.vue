@@ -5,7 +5,7 @@
     </div>
     <div class="cell_ft">
       <div style="text-align:right;" @touchstart="showPicker">
-        <input :id="'name-box-' + uuid" class="cell_primary" value="请选择" style="border:none;text-align:right;color: #999999;" @input="getVal" readonly="readonly">
+        <input :id="'name-box-' + uuid" class="cell_primary" value="" style="border:none;text-align:right;color: #999999;" @input="getVal" readonly="readonly">
         <i class="icon icon-right"></i>
       </div>
     </div>
