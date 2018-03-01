@@ -4,7 +4,6 @@
   </div>
 </template>
 <script>
-  import Calendar from '../components/calendar/calendar.js'
   export default {
     data() {
       return {
@@ -15,12 +14,8 @@
       }
     },
     components: {
-      Calendar
     },
     methods: {
-      getDate(v) {
-        console.log(v)
-      }
     }
   }
 </script>
